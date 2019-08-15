@@ -4,7 +4,8 @@
   "description": "A gulp template for easy web development testing",
   "main": "index.js",
   "scripts": {
-    "start": "gulp watch"
+    "start": "gulp watch",
+    "deploy": "gulp minifyJS"
   },
   "repository": {
     "type": "git",
@@ -19,6 +20,8 @@
   "devDependencies": {
     "browser-sync": "^2.26.7",
     "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-jsmin": "^0.1.5",
     "gulp-sass": "^4.0.2"
   }
 }
